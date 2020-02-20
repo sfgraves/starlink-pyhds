@@ -1254,6 +1254,7 @@ datLocked( const HDSLoc *locator, int recurs, int *status) {
 int
 datMap(HDSLoc *locator, const char *type_str, const char *mode_str, int ndim, const hdsdim dims[], void **pntr, int *status) {
 
+
   int retval = 0;
   int instat = *status;
   int isv5 = ISHDSv5(locator);
